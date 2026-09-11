@@ -1,5 +1,5 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt",    
+        "cpp": "cd $dir && g++ -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt",    
     }
 }
